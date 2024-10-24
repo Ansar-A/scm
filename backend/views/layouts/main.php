@@ -304,7 +304,7 @@ AppAsset::register($this);
                         </div>
                         <div>
                           <h6 class="fw-500"><?php echo Yii::$app->user->identity->username;?></h6>
-                          <p>Admin</p>
+                          <p>Supplier</p>
                         </div>
                       </div>
                     </div>
