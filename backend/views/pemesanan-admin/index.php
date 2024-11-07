@@ -43,9 +43,9 @@ $this->params['breadcrumbs'][] = $this->title;
     
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
     <div class="card-style mb-30">
-        <h6 class="mb-10">Data Pesanan Admin</h6>
+        <h6 class="mb-10">Data Pesanan Supplier</h6>
         <p class="text-sm mb-20">
-                    Daftar Pesanan Admin, Lakukan Pemeriksaan Status Pesanan Anda.
+                    Daftar Pesanan Supplier, Lakukan Pemeriksaan Status Pesanan Anda.
                   </p>
                    <div class="table-wrapper table-responsive">
                 <?= GridView::widget([
@@ -162,7 +162,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
     <div class="card-style mb-30">
-                  <h6 class="mb-10">Data Produsen</h6>
+                  <h6 class="mb-10">Produsen</h6>
                   <p class="text-sm mb-20">
                     Yuk kenalan dengan kami!
                   </p>
@@ -172,10 +172,10 @@ $this->params['breadcrumbs'][] = $this->title;
                         <tr>
                           
                           <th>
-                            <h6>Supplier</h6>
+                            <h6>Produsen</h6>
                           </th>
                           <th>
-                            <h6>Kode Supplier</h6>
+                            <h6>Kode Produsen</h6>
                           </th>
                           <th>
                             <h6>No. Telp</h6>

@@ -84,7 +84,7 @@ AppAsset::register($this);
           <ul class="navbar-nav">
             <li class="nav-item fw-semibold d-none d-lg-block ms-0">
               <h1 class="welcome-text">Welcome, <span class="text-black fw-bold"></span></h1>
-              <h3 class="welcome-sub-text"> <?php echo Yii::$app->user->identity->username?> to Supplier Dashboard </h3>
+              <h3 class="welcome-sub-text"> <?php echo Yii::$app->user->identity->username?> to Produsen Dashboard </h3>
             </li>
           </ul>
           <ul class="navbar-nav ms-auto">

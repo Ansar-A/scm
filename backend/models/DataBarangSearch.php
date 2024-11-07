@@ -47,7 +47,7 @@ class DataBarangSearch extends DataBarang
         // Create ActiveDataProvider
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
-            'pagination'=>['pageSize'=>4]
+
         ]);
 
         // Load the search parameters
